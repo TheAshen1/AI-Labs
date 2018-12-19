@@ -3,14 +3,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3f0a8e07-e57b-4f64-bd6f-cdb20d29a454</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>AI_Lab_1.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>AI_Lab_2_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>AI Lab 1</Name>
-    <RootNamespace>AI Lab 1</RootNamespace>
+    <Name>AI Labs</Name>
+    <RootNamespace>AI Labs</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AI_Lab_1.py" />
+    <Compile Include="AI_Lab_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AI_Lab_2_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AI_Lab_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AI_Lab_4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AI_Lab_5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="core.py" />
+    <Compile Include="main.py" />
+    <Compile Include="net.py" />
+    <Compile Include="perceptron.py" />
+    <Compile Include="plot.py" />
+    <Compile Include="RBF.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iris.csv" />
+    <Content Include="iris.data" />
+    <Content Include="train.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

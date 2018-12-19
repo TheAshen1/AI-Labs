@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AI Lab 1", "AI Lab 1\AI Lab 1.pyproj", "{3F0A8E07-E57B-4F64-BD6F-CDB20D29A454}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AI Labs", "AI Lab 1\AI Labs.pyproj", "{3F0A8E07-E57B-4F64-BD6F-CDB20D29A454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
